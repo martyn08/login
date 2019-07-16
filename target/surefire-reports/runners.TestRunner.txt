@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.695 s <<< FAILURE! - in runners.TestRunner
+feature(runners.TestRunner)  Time elapsed: 5.12 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="RveJvd snByac">...</span> is not clickable at point (604, 503). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge" tabindex="0"></div>
+  (Session info: chrome=75.0.3770.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AG89RSG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\BIDEMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c4825c5f099f45473a821f43b8071c0b
+	at runners.TestRunner.feature(TestRunner.java:27)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="RveJvd snByac">...</span> is not clickable at point (604, 503). Other element would receive the click: <div class="ANuIbb IdAqtf" jsname="k4HEge" tabindex="0"></div>
+  (Session info: chrome=75.0.3770.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AG89RSG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\BIDEMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c4825c5f099f45473a821f43b8071c0b
+
